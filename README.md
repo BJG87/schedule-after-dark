@@ -12,6 +12,8 @@ Schedule After Dark is a Chrome extension that disables the Gmail send button be
 
 ## Installation
 
+### Using Git
+
 1. Clone the repository:
 
    ```
@@ -24,10 +26,18 @@ Schedule After Dark is a Chrome extension that disables the Gmail send button be
    cd schedule-after-dark
    ```
 
-3. Load the src folder from the extension in Chrome:
-   - Open Chrome and go to `chrome://extensions/`.
-   - Enable "Developer mode" in the top right corner.
-   - Click on "Load unpacked" and select the `schedule-after-dark/src` directory.
+### Downloading from GitHub
+
+1. Go to the GitHub repository page.
+2. Click on the "Code" button and select "Download ZIP".
+3. Extract the downloaded ZIP file.
+4. Navigate to the extracted folder.
+
+### Loading the Extension in Chrome
+
+1. Open Chrome and go to `chrome://extensions/`.
+2. Enable "Developer mode" in the top right corner.
+3. Click on "Load unpacked" and select the `schedule-after-dark/src` directory.
 
 ## Usage
 

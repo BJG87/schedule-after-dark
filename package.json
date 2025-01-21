@@ -1,0 +1,22 @@
+{
+  "name": "schedule-after-dark",
+  "version": "1.0.0",
+  "description": "A Chrome extension that disables the Gmail send button between specified on and off times.",
+  "main": "src/background.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "gmail",
+    "send button",
+    "schedule",
+    "disable"
+  ],
+  "author": "Brett Grear",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

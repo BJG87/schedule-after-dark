@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Schedule After Dark</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <h1>Schedule After Dark</h1>
+    <p>
+      In between the on time and off time, the Gmail send button will be
+      automatically disabled.
+    </p>
+    <div id="status-indicator">SENDING ALLOWED</div>
+    <form id="schedule-form">
+      <label for="on-time">On Time:</label>
+      <input type="time" id="on-time" name="on-time" />
+
+      <label for="off-time">Off Time:</label>
+      <input type="time" id="off-time" name="off-time" />
+
+      <button type="button" id="manual-override">Manual Override</button>
+    </form>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
